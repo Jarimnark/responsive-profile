@@ -141,7 +141,7 @@ body.dark-theme {
   );
 }
 
-.dark-theme :is(.button__ghost, .exp__icon) {
+.dark-theme :is(.button__ghost, .exp__icon i) {
   color: var(--white-color);
 }
 
@@ -1461,7 +1461,7 @@ body.dark-theme {
   }
 
   .projects__container {
-    grid-template-columns: repeat(3, 325px);
+    grid-template-columns: repeat(2, 325px);
     padding-block: 3rem 1rem;
   }
 
