@@ -25,6 +25,7 @@ const linkAction = (navMenu) => {
   navMenu.classList.remove("show-menu");
 };
 navLink.forEach((l) => l.addEventListener("click", () => linkAction(navMenu)));
+
 /*=============== SHADOW HEADER ===============*/
 const shadowHeader = () => {
   const header = document.getElementById("header");
